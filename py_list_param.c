@@ -40,10 +40,10 @@ static PyObject* c_list_param(PyObject* self, PyObject* args)
 //        printf("%d\n", i);
 //        printf("Hello world\n");
 
-        Py_DECREF(item_x); // Decrement the reference count
-        Py_DECREF(item_y); // Decrement the reference count
+        
     }
-
+    Py_DECREF(item_x); // Decrement the reference count
+    Py_DECREF(item_y); // Decrement the reference count
     Py_DECREF(c_list); // Decrement the reference count
 //    Py_DECREF(y_list); // Decrement the reference count
 //    printf("Hello world\n");
