@@ -14,5 +14,21 @@ sum: float = 0.0
 for pylist in [py_list3, py_list4, py_list5, py_list6]:
     sum = lpm.sum_list(pylist)
     print(sum, type(sum))
+  
+
+for pylist in py_list3:
+    sum = lpm.sum_list(pylist)
+    print(sum, type(sum))
+
+
+# for pylist in py_list4:
+#     sum = lpm.sum_list(pylist)
+#     print(sum, type(sum))
+
+# print(py_list5)
+# for pylist in py_list5:
+#     sum = lpm.sum_list(pylist)
+#     print(sum, type(sum))
+
 
 print(sum)
